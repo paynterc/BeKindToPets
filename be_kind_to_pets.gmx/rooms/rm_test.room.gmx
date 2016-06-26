@@ -294,7 +294,7 @@
     <instance objName="obj_rope_coil" x="660" y="493" name="inst_F0AA6710" locked="0" code="left = 725;&#xA;top = 525;&#xA;width = 15;&#xA;height=100;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rope" x="743" y="577" name="inst_E9DA74F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rope" x="743" y="609" name="inst_16579E47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pet" x="545" y="455" name="inst_4113AD85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_deer" x="548" y="444" name="inst_DC104ADA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -26,6 +26,8 @@
     <sprite>sprites\spr_hamster_sm_walk</sprite>
     <sprite>sprites\spr_cat</sprite>
     <sprite>sprites\spr_cat_walk</sprite>
+    <sprite>sprites\spr_deer</sprite>
+    <sprite>sprites\spr_deer_walk</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -47,6 +49,7 @@
     <object>objects\obj_pet</object>
     <object>objects\obj_hamster</object>
     <object>objects\obj_cat</object>
+    <object>objects\obj_deer</object>
     <object>objects\obj_princess</object>
     <object>objects\obj_rope</object>
     <object>objects\obj_rope_coil</object>

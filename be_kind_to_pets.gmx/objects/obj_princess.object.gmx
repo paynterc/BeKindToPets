@@ -111,7 +111,7 @@ if(can_jump){
 if(global.checkpointR == room)
 {
     x = global.checkpointx;
-    y = global.checkpointy;
+    y = global.checkpointy+(sprite_height/2);
 }
 else if(instance_exists(obj_start_door))
 {

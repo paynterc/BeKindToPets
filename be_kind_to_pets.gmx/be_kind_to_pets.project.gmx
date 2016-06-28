@@ -30,6 +30,7 @@
     <sprite>sprites\spr_deer</sprite>
     <sprite>sprites\spr_deer_walk</sprite>
     <sprite>sprites\spr_switch</sprite>
+    <sprite>sprites\spr_snake_baddy</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -48,6 +49,7 @@
     <object>objects\obj_platform_mv</object>
     <object>objects\obj_start_door</object>
     <object>objects\obj_robaddy</object>
+    <object>objects\obj_snake_baddy</object>
     <object>objects\obj_pet</object>
     <object>objects\obj_hamster</object>
     <object>objects\obj_cat</object>
@@ -63,6 +65,7 @@
     <room>rooms\rm_test</room>
     <room>rooms\rm_room2</room>
     <room>rooms\rm_template_1024_768</room>
+    <room>rooms\rm_room3</room>
     <room>rooms\rm_room1</room>
   </rooms>
   <help>

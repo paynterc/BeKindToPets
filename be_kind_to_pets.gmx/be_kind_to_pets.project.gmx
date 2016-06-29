@@ -31,6 +31,7 @@
     <sprite>sprites\spr_deer_walk</sprite>
     <sprite>sprites\spr_switch</sprite>
     <sprite>sprites\spr_snake_baddy</sprite>
+    <sprite>sprites\spr_box</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -59,6 +60,7 @@
     <object>objects\obj_rope_coil</object>
     <object>objects\obj_trapdoor</object>
     <object>objects\obj_switch</object>
+    <object>objects\obj_box</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>

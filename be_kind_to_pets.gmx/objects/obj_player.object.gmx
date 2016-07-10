@@ -129,25 +129,24 @@ else if(collision_point(x,y+vsp,obj_player,false,true))
 
 //Moving Platform
 //Remember, y axis increases as you go down.
-if (instance_exists(obj_platform_mv))
+var hit_platform_mv = collision_point(x,y+1,obj_platform_mv,false,true);
+var hit_platform_impend = collision_point(x,y+vsp,obj_platform_mv,false,true);
+if(hit_platform_mv &amp;&amp; y &lt; (hit_platform_mv).y - ((hit_platform_mv).sprite_height/2) &amp;&amp; !jumping)
 {
- 
-    if (place_meeting(x,y+vsp,obj_platform_mv))
+    vsp = 0;
+    hsp_carry = (hit_platform_mv).hsp;
+    can_jump = true;
+}
+else if (hit_platform_impend &amp;&amp; y-1 &lt; (hit_platform_impend).y - ((hit_platform_impend).sprite_height/2))
+{
+    hsp_carry = (hit_platform_impend).hsp;
+    while(!place_meeting(x,y+sign(vsp),obj_platform_mv))
     {
-    
-        while(!place_meeting(x,y+sign(vsp),obj_platform_mv))
-        {
-            y += sign(vsp);
-        }
+        y += sign(vsp);
     }
-    
-    var hit_platform_mv = collision_point(x,y+1,obj_platform_mv,false,true);
-    if(hit_platform_mv)
-    {
-        vsp = 0;
-        hsp_carry = (hit_platform_mv).hsp;
-        can_jump = true;
-    }
+         
+    vsp = 0;
+    can_jump = true;
     
 }
 

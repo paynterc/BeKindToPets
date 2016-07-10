@@ -28,16 +28,24 @@
     <sprite>sprites\spr_cat</sprite>
     <sprite>sprites\spr_cat_walk</sprite>
     <sprite>sprites\spr_deer</sprite>
+    <sprite>sprites\spr_deer_white</sprite>
     <sprite>sprites\spr_deer_walk</sprite>
+    <sprite>sprites\spr_deer_white_walk</sprite>
     <sprite>sprites\spr_switch</sprite>
+    <sprite>sprites\spr_switch_box</sprite>
     <sprite>sprites\spr_snake_baddy</sprite>
     <sprite>sprites\spr_box</sprite>
+    <sprite>sprites\spr_princess2</sprite>
+    <sprite>sprites\spr_box_chute</sprite>
+    <sprite>sprites\spr_wall_tile</sprite>
+    <sprite>sprites\spr_wall_tile32</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_player_death.gml</script>
     <script>scripts\scr_set_view.gml</script>
+    <script>scripts\scr_auto_tile.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -61,12 +69,17 @@
     <object>objects\obj_trapdoor</object>
     <object>objects\obj_switch</object>
     <object>objects\obj_box</object>
+    <object>objects\obj_box_chute</object>
+    <object>objects\obj_switch_box</object>
+    <object>objects\obj_deer_walk</object>
+    <object>objects\obj_deer_walk_white</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
     <room>rooms\rm_test</room>
     <room>rooms\rm_room2</room>
     <room>rooms\rm_template_1024_768</room>
+    <room>rooms\rm_deer</room>
     <room>rooms\rm_room3</room>
     <room>rooms\rm_room1</room>
   </rooms>

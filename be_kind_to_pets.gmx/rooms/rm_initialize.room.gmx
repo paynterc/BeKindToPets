@@ -15,7 +15,8 @@ global.checkpointR = 0;//room
 global.checkpointx = 0;//xposition
 global.checkpointy = 0;//yposition
 
-room_goto(rm_deer);</code>
+//room_goto(rm_room1);
+room_goto(rm_character);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

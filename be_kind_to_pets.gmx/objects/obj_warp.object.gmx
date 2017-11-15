@@ -49,7 +49,7 @@
           <argument>
             <kind>1</kind>
             <string>if(instance_number(obj_pet)&lt;1){
-    room_goto(target_r);
+    room_goto_next();
 }
 
 </string>
